@@ -325,6 +325,12 @@ svg{
     .brought{
         margin-top: 20px;
         padding-top: 50px;
+        font-size: 20px;
+        margin-left: 0px;
+        padding-left: 0;
+        margin-bottom: 50px;
+        padding-bottom: 50px;
+        left: 100px;
     }
 }
 
