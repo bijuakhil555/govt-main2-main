@@ -119,7 +119,7 @@ function  ProductProvider(props) {
 
 
     const UpdateNullAddress = async (address)=>{
-
+        console.log("njan asyncil ethiyee");
         let phoneNo = isAuthenticated().phoneNumber;
         console.log("phone num init user:" , phoneNo);
         let phoneNumber;
@@ -202,7 +202,7 @@ function  ProductProvider(props) {
                             
                             }),
         })
-        .then(res =>{
+        .then (res =>{
             // if success
             if(res.status === 202)
             {
@@ -214,7 +214,7 @@ function  ProductProvider(props) {
                 if(name==='notfound')
                 {
                     console.log("no user");
-                    // UpdateNullAddress(res.data.useraddress[0]) ;
+                    UpdateNullAddress(res.data.useraddress[0]) ;
                 }
                 else
                 {

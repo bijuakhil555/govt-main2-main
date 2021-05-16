@@ -758,6 +758,7 @@ font-size: 18px;
 font-style: normal;
 font-weight: 600;
 font-size: 22px;
+margin-top: 50px;
 }
 
 .subtotalprice{
@@ -790,7 +791,10 @@ color: #151515;
 
 .bord{
     border-radius: 15px;
+    margin-top: 108px;
 }
+
+
 
 /******NEW*****/
 .logo{
@@ -898,4 +902,8 @@ color: #151515;
 
 .flterght{
     float: right;
+}
+
+.company__info {
+    background-color: white;
 }

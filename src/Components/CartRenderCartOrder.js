@@ -12,7 +12,7 @@ export default function Rendercartorder(props) {
                 {(values)=>{
                     return(
                         <>
-                        <div className="card p-3 mt-5 bord">
+                        <div className="card p-3 bord">
                         <div className="h5 completeorder">
                 Complete Order
             </div> 
