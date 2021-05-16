@@ -70,12 +70,21 @@ const Nav = () => {
                                     </li>
 
                                     <li>
-                                        
+                                    <Link
+
+                                        to='/cart'
+                                        // onClick={()=>{values.CheckOut()}}
+                                        style={{cursor:'pointer'}}
+                                        className="check mr-sm-2 my-2 my-sm-0" >
+                                        <i class="fas fa-shopping-bag"></i>
+                                        Checkout
+                                        <i class="fas fa-arrow-right"></i>
+                                    </Link>
                                     </li>
 
                                 </ul>
 
-                                <Link
+                                {/* <Link
 
                                     to='/cart'
                                     // onClick={()=>{values.CheckOut()}}
@@ -84,7 +93,7 @@ const Nav = () => {
                                     <i class="fas fa-shopping-bag"></i>
                                     Checkout
                                     <i class="fas fa-arrow-right"></i>
-                                </Link>
+                                </Link> */}
                             </>)
                         }}
                     </ProductConsumer>
